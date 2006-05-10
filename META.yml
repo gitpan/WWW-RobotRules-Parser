@@ -1,0 +1,21 @@
+---
+name: WWW-RobotRules-Parser
+version: 0.01
+author:
+  - |-
+    Copyright (c) 2006 Daisuke Maki E<lt>dmaki@cpan.orgE<gt>
+    All rights reserved.
+abstract: Just Parse robots.txt
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  URI: 0
+provides:
+  WWW::RobotRules::Parser:
+    file: lib/WWW/RobotRules/Parser.pm
+    version: 0.01
+generated_by: Module::Build version 0.28
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
