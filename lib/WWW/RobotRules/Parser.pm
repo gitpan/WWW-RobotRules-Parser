@@ -1,4 +1,4 @@
-# $Id: Parser.pm 1 2006-05-10 08:42:35Z daisuke $
+# $Id: /mirror/WWW-RobotRules-Parser/lib/WWW/RobotRules/Parser.pm 1624 2006-07-05T08:49:42.510989Z daisuke  $
 #
 # Copyright (c) 2006 Daisuke Maki <dmaki@cpan.org>
 # All rights reserved.
@@ -12,7 +12,7 @@ use URI;
 
 BEGIN
 {
-    $VERSION = '0.01';
+    $VERSION = '0.02';
 }
 
 sub new { bless { }, shift }
@@ -129,6 +129,9 @@ Given the URI of the robots.txt file and its contents, parses the content and re
      '*' => [ '/private', '/also_private' ],
      'Another UserAgent' => [ '/dont_look' ]
   }
+
+Where the key is the user agent name, and the value is an arrayref of all
+paths that are prohibited by that user agent
 
 =head2 parse_uri($uri)
 

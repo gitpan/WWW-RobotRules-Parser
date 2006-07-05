@@ -32,6 +32,9 @@ METHODS
          'Another UserAgent' => [ '/dont_look' ]
       }
 
+    Where the key is the user agent name, and the value is an arrayref of
+    all paths that are prohibited by that user agent
+
   parse_uri($uri)
     Give the URI of the robots.txt file, retrieves and parses the file.
 
