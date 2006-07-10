@@ -1,4 +1,4 @@
-# $Id: /mirror/WWW-RobotRules-Parser/lib/WWW/RobotRules/Parser.pm 1624 2006-07-05T08:49:42.510989Z daisuke  $
+# $Id: /mirror/WWW-RobotRules-Parser/lib/WWW/RobotRules/Parser.pm 2025 2006-07-10T07:09:57.762696Z daisuke  $
 #
 # Copyright (c) 2006 Daisuke Maki <dmaki@cpan.org>
 # All rights reserved.
@@ -12,7 +12,7 @@ use URI;
 
 BEGIN
 {
-    $VERSION = '0.02';
+    $VERSION = '0.03';
 }
 
 sub new { bless { }, shift }

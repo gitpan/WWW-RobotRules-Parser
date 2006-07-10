@@ -1,6 +1,6 @@
 ---
 name: WWW-RobotRules-Parser
-version: 0.02
+version: 0.03
 author:
   - |-
     Copyright (c) 2006 Daisuke Maki E<lt>dmaki@cpan.orgE<gt>
@@ -14,7 +14,7 @@ requires:
 provides:
   WWW::RobotRules::Parser:
     file: lib/WWW/RobotRules/Parser.pm
-    version: 0.02
+    version: 0.03
 generated_by: Module::Build version 0.2801
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

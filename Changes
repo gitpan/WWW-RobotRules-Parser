@@ -1,6 +1,9 @@
 Changes
 =======
 
+0.03 - 10 Jul 2006
+  - Shouldn't be cut n' pasting test code. fixed 99-pod-coverage.t
+
 0.02
   - No code change.
   - Add this Changes file.
