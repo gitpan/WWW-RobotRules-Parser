@@ -1,18 +1,17 @@
-# $Id: /mirror/WWW-RobotRules-Parser/lib/WWW/RobotRules/Parser.pm 2025 2006-07-10T07:09:57.762696Z daisuke  $
+# $Id: /mirror/perl/WWW-RobotRules-Parser/trunk/lib/WWW/RobotRules/Parser.pm 7188 2007-05-15T00:03:57.777064Z daisuke  $
 #
-# Copyright (c) 2006 Daisuke Maki <dmaki@cpan.org>
-# All rights reserved.
-#
-# A lot of this code is based on WWW::RobotRules
+# Copyright (c) 2006-2007 Daisuke Maki <daisuke@endeworks.jp>
+# A lot of this code is based on WWW::RobotRules.
 
 package WWW::RobotRules::Parser;
 use strict;
+use warnings;
 use vars qw($VERSION);
 use URI;
 
 BEGIN
 {
-    $VERSION = '0.03';
+    $VERSION = '0.04';
 }
 
 sub new { bless { }, shift }
@@ -135,12 +134,22 @@ paths that are prohibited by that user agent
 
 =head2 parse_uri($uri)
 
-Give the URI of the robots.txt file, retrieves and parses the file.
+Given the URI of the robots.txt file, retrieves and parses the file.
+
+=head1 SEE ALSO 
+
+L<WWW::RobotRules>
 
 =head1 AUTHOR
 
-Copyright (c) 2006 Daisuke Maki E<lt>dmaki@cpan.orgE<gt>
-All rights reserved.
+Copyright (c) 2006-2007 Daisuke Maki E<lt>daisuke@endeworks.jpE<gt>
+
+=head1 LICENSE
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+
+See http://www.perl.com/perl/misc/Artistic.html
 
 =cut
 

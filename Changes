@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.04 - 15 May 2007
+  - No code change.
+  - Migrate to Module::Install
+  - Doc tweaks
+
 0.03 - 10 Jul 2006
   - Shouldn't be cut n' pasting test code. fixed 99-pod-coverage.t
 
