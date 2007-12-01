@@ -1,4 +1,4 @@
-# $Id: /mirror/perl/WWW-RobotRules-Parser/trunk/lib/WWW/RobotRules/Parser.pm 7188 2007-05-15T00:03:57.777064Z daisuke  $
+# $Id: /mirror/perl/WWW-RobotRules-Parser/trunk/lib/WWW/RobotRules/Parser.pm 31629 2007-12-01T13:31:37.690053Z daisuke  $
 #
 # Copyright (c) 2006-2007 Daisuke Maki <daisuke@endeworks.jp>
 # A lot of this code is based on WWW::RobotRules.
@@ -11,7 +11,7 @@ use URI;
 
 BEGIN
 {
-    $VERSION = '0.04';
+    $VERSION = '0.04001';
 }
 
 sub new { bless { }, shift }

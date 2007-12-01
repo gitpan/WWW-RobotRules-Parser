@@ -1,6 +1,11 @@
 Changes
 =======
 
+0.04001 - 01 Dec 2007
+  - Add Test::More to prereqs
+  - Make POD tests optional
+  - No other code changes
+
 0.04 - 15 May 2007
   - No code change.
   - Migrate to Module::Install
